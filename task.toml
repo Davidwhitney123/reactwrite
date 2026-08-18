@@ -1,0 +1,6 @@
+[task]
+name = "Fix stale async search results in React search"
+description = "A search component triggers asynchronous queries and races stale responses when the user types a newer query. The task is to cancel stale requests and ignore outdated results."
+category = "react"
+framework = "react"
+language = "javascript"
